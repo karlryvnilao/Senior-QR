@@ -81,10 +81,10 @@ $current_page = PageName();
                     </li>
                 <?php endif ?>
                 <?php if(isset($_SESSION['username']) && $_SESSION['role']=='administrator'): ?>
-                <li class="nav-item <?= $current_page=='revenue.php' ? 'active' : null ?>">
-                    <a href="revenue.php">
-                        <i class="fas fa-dollar-sign"></i>
-                        <p>Revenues</p>
+                <li class="nav-item <?= $current_page=='report.php' ? 'active' : null ?>">
+                    <a href="report.php">
+                        <i class="fas fa-chart-area"></i>
+                        <p>Reports</p>
                     </a>
                 </li>
                 <li class="nav-section">

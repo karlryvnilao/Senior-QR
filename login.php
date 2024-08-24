@@ -85,6 +85,7 @@
 							</div>
 						</form>
 					</div>
+					<a href="portal/portal.php">Go to Portal</a>
 				</div>
 			</div>
 		</div>

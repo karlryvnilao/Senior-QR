@@ -105,7 +105,9 @@
                                                         <td><?= $row['gender'] ?></td>
                                                         <td><?= $row['purok'] ?></td>
                                                         <td><?= $row['pension'] ?></td>
-                                                        <td><?= $row['deceased'] ?></td>
+                                                        <td>
+                                                            <?= ($row['deceased'] == 0) ? 'Active' : 'Deceased' ?>
+                                                        </td>
                                                         <?php if(isset($_SESSION['username'])):?>
                                                             <?php if($_SESSION['role']=='administrator'):?>
                                                         <?php endif ?>
